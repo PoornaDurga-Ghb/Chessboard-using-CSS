@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.chess .table{
+    width: 590px;
+    height: 590px;
+}
+.chess{
+    border: 6px solid rgb(16, 11, 11);
+    /* outline: none; */
+    width: fit-content;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 600px;
+    height: 600px;
+    margin-top: 15px;
+}
+.chess .white1>td,.chess .white2>td,.chess .black1>td,.chess .black2>td{
+    font-size: 40px;
+    text-align: center;
+    /* margin-top: -10px; */
+}
+.chess .white1>td:nth-child(even),.chess .empty1>td:nth-child(even),.chess .empty3>td:nth-child(even),.chess .black1>td:nth-child(even)
+{
+    background-color: gray;
+}
+.chess .white2>td:nth-child(odd),.chess .empty2>td:nth-child(odd),.chess .empty4>td:nth-child(odd),.chess .black2>td:nth-child(odd)
+{
+    background-color: gray;
+}
+.chess .white1>td:nth-child(odd),.chess .empty1>td:nth-child(odd),.chess .empty3>td:nth-child(odd),.chess .black1>td:nth-child(odd)
+{
+    background-color: whitesmoke;
+}
+.chess .white2>td:nth-child(even),.chess .empty2>td:nth-child(even),.chess .empty4>td:nth-child(even),.chess .black2>td:nth-child(even)
+{
+    background-color: whitesmoke;
+}
+.empty1,.empty2,.empty3,.empty4{
+    font-size: 20px;
+}
