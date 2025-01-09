@@ -28,11 +28,11 @@
 }
 .chess .white1>td:nth-child(even),.chess .empty1>td:nth-child(even),.chess .empty3>td:nth-child(even),.chess .black1>td:nth-child(even)
 {
-    background-color: gray;
+    background-color: rgb(121, 117, 117);
 }
 .chess .white2>td:nth-child(odd),.chess .empty2>td:nth-child(odd),.chess .empty4>td:nth-child(odd),.chess .black2>td:nth-child(odd)
 {
-    background-color: gray;
+    background-color: rgb(121, 117, 117);
 }
 .chess .white1>td:nth-child(odd),.chess .empty1>td:nth-child(odd),.chess .empty3>td:nth-child(odd),.chess .black1>td:nth-child(odd)
 {
